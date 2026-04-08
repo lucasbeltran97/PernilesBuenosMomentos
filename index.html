@@ -55,6 +55,14 @@ h1, h2 {
   font-size: 18px;
 }
 
+/* HERO SIN DEFORMAR */
+.hero {
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+  height: 300px;
+  border-radius: 10px;
+}
+
+/* IMÁGENES */
 img {
   width: 100%;
   max-width: 400px;
@@ -62,6 +70,7 @@ img {
   margin-top: 15px;
 }
 
+/* GALERÍA */
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -74,6 +83,7 @@ img {
   max-width: 250px;
 }
 
+/* WHATSAPP */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -91,14 +101,14 @@ img {
 <body>
 
 <header>
-  <img src="logo.png.png" style="width:140px; margin-bottom:10px;">
+  <img src="logo.png.png" style="width:140px;">
   <h1>Perniles Buenos Momentos 🔥</h1>
   <p>La mejor opción para tus eventos en Neuquén</p>
 </header>
 
 <nav>
   <a href="#inicio">Inicio</a>
-  <a href="#producto">Pernil</a>
+  <a href="#producto">Nuestros productos</a>
   <a href="#galeria">Galería</a>
   <a href="#nosotros">Nosotros</a>
   <a href="#opiniones">Opiniones</a>
@@ -106,18 +116,30 @@ img {
 </nav>
 
 <section id="inicio">
-  <h2>Vos disfrutás, nosotros cocinamos</h2>
-  <p style="text-align:center;">Ideal para cumpleaños, juntadas y eventos familiares</p>
 
-  <img src="DSC_0974.jpg" loading="lazy">
+  <h2>Pernil para eventos en Neuquén 🔥 abundante, casero y listo para disfrutar</h2>
 
-  <a class="btn" href="https://wa.me/5492996566702?text=Hola%20quiero%20info%20del%20pernil">
-    👉 Pedir por WhatsApp
+  <p style="text-align:center;">
+  Nos encargamos de la comida para que vos disfrutes sin preocuparte
+  </p>
+
+  <div class="hero"></div>
+
+  <p style="text-align:center;">
+  ✔ Entrega puntual <br>
+  ✔ Porciones abundantes <br>
+  ✔ Opciones para todo tipo de eventos
+  </p>
+
+  <a class="btn" href="https://wa.me/5492996566702?text=Hola%20quiero%20consultar%20disponibilidad">
+    👉 Consultar disponibilidad ahora
   </a>
+
 </section>
 
 <section id="producto">
-  <h2>¿Qué ofrecemos?</h2>
+
+  <h2>Nuestros productos</h2>
 
   <p>¡Hola! 👋 Gracias por consultar en <strong>Perniles Buenos Momentos</strong>.</p>
 
@@ -156,26 +178,30 @@ img {
   <p>🍰 Postres: consultanos por opciones dulces</p>
 
   <p style="text-align:center;">
-  <strong>Armamos tu evento completo para que vos solo disfrutes 🔥</strong>
+  <strong>Consultanos fecha y cantidad de personas y te armamos un presupuesto en minutos 🔥</strong>
   </p>
+
 </section>
 
 <section id="galeria">
+
   <h2>Galería</h2>
-  <p style="text-align:center;">Mirá cómo se vive la experiencia 🔥</p>
+  <p style="text-align:center;">Eventos reales de nuestros clientes 🔥</p>
 
   <div class="galeria">
+    <img src="DSC_0974.jpg">
     <img src="DSC_0996.jpg">
     <img src="DSC_1023.jpg">
     <img src="DSC_1025.jpg">
   </div>
+
 </section>
 
 <section id="nosotros">
   <h2>Sobre Nosotros</h2>
 
   <p style="text-align:center;">
-  Somos una empresa familiar que llegó a Neuquén en el año 2000, dedicada desde sus comienzos a la elaboración de comidas.
+  Somos una empresa familiar que llegó a Neuquén en el año 2000, dedicada a la elaboración de comidas.
   </p>
 
   <p style="text-align:center;">
@@ -192,16 +218,19 @@ img {
 </section>
 
 <section id="opiniones">
+
   <h2>Opiniones de clientes</h2>
 
-  <p style="text-align:center;">⭐️⭐️⭐️⭐️⭐️ “Pedimos un servicio en familia y fue todo exquisito. Súper recomendable.”</p>
+  <p style="text-align:center;"><strong>Clientes felices que ya confiaron en nosotros ⭐⭐⭐⭐⭐</strong></p>
+
+  <p style="text-align:center;">⭐️⭐️⭐️⭐️⭐️ “Pedimos un servicio en familia y fue todo exquisito.”</p>
   <p style="text-align:center;">⭐️⭐️⭐️⭐️⭐️ “Excelente servicio, muy rico y puntual.”</p>
   <p style="text-align:center;">⭐️⭐️⭐️⭐️⭐️ “Abundante y con variedad de salsas.”</p>
-  <p style="text-align:center;">⭐️⭐️⭐️⭐️⭐️ “Volvería a comprar sin dudas.”</p>
 
   <a href="https://g.page/r/CfhRGXsibzp8EAE/review" class="btn" target="_blank">
     👉 Ver más opiniones en Google
   </a>
+
 </section>
 
 <section id="contacto">
