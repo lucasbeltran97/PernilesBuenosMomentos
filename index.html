@@ -62,6 +62,18 @@ img {
   margin-top: 15px;
 }
 
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 45%;
+  max-width: 250px;
+}
+
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -86,6 +98,7 @@ img {
 <nav>
   <a href="#inicio">Inicio</a>
   <a href="#producto">Pernil</a>
+  <a href="#galeria">Galería</a>
   <a href="#nosotros">Nosotros</a>
   <a href="#opiniones">Opiniones</a>
   <a href="#contacto">Contacto</a>
@@ -95,10 +108,9 @@ img {
   <h2>Vos disfrutás, nosotros cocinamos</h2>
   <p style="text-align:center;">Ideal para cumpleaños, juntadas y eventos familiares</p>
 
-  <!-- IMAGEN PRINCIPAL -->
-  <img src="DSC_0969.jpg" loading="lazy">
+  <img src="DSC_0974.jpg" loading="lazy">
 
-  <a class="btn" href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20info%20del%20pernil">
+  <a class="btn" href="https://wa.me/5492996566702?text=Hola%20quiero%20info%20del%20pernil">
     👉 Pedir por WhatsApp
   </a>
 </section>
@@ -110,21 +122,28 @@ img {
   <p><strong>Panes:</strong> cantidad ideal por persona</p>
   <p><strong>Salsas:</strong> variedad para todos los gustos</p>
 
-  <!-- GALERÍA -->
-  <img src="DSC_1122.jpg" loading="lazy">
-
-
   <h3>Opciones</h3>
   <p>✔ Box para 10 personas</p>
   <p>✔ Box para 20 personas</p>
 
   <p><strong>Incluye:</strong> carne + panes + salsas</p>
+
+  <p style="text-align:center;"><strong>Consultanos por disponibilidad 🔥</strong></p>
+</section>
+
+<section id="galeria">
+  <h2>Galería</h2>
+  <p style="text-align:center;">Mirá cómo se vive la experiencia 🔥</p>
+
+  <div class="galeria">
+    <img src="DSC_0996.jpg" loading="lazy">
+    <img src="DSC_1023.jpg" loading="lazy">
+    <img src="DSC_1025.jpg" loading="lazy">
+  </div>
 </section>
 
 <section id="nosotros">
   <h2>Sobre Nosotros</h2>
-
-  <img src="DSC_1122.jpg" loading="lazy">
 
   <p style="text-align:center;">
     Nos especializamos en hacer de tu evento una experiencia única.
@@ -137,20 +156,18 @@ img {
 
   <p style="text-align:center;">⭐️⭐️⭐️⭐️⭐️ Excelente calidad y atención</p>
   <p style="text-align:center;">⭐️⭐️⭐️⭐️⭐️ Súper recomendable para eventos</p>
-
-  <img src="DSC_1153.jpg" loading="lazy">
 </section>
 
 <section id="contacto">
   <h2>Contacto</h2>
   <p style="text-align:center;">Neuquén Capital</p>
 
-  <a class="btn" href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20hacer%20un%20pedido">
+  <a class="btn" href="https://wa.me/5492996566702?text=Hola%20quiero%20hacer%20un%20pedido">
     👉 Escribir por WhatsApp
   </a>
 </section>
 
-<a class="whatsapp-float" href="https://wa.me/549XXXXXXXXXX">💬</a>
+<a class="whatsapp-float" href="https://wa.me/5492996566702">💬</a>
 
 </body>
 </html>
